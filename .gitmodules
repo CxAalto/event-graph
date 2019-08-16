@@ -1,0 +1,9 @@
+[submodule "dag"]
+	path = dag
+	url = git@github.com:arashbm/dag.git
+[submodule "HyperLogLog"]
+	path = HyperLogLog
+	url = git@github.com:arashbm/HyperLogLog.git
+[submodule "disjoint_set"]
+	path = disjoint_set
+	url = git@github.com:arashbm/disjoint_set.git

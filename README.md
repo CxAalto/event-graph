@@ -1,4 +1,7 @@
-# Out-component measurement
+# Static Event Graphs: Out-component size measurement and more
+
+Visit the [Github repository](https://github.com/CxAalto/event-graph) for the
+most recent version of this code-base.
 
 ## Compiling
 A recent (C++17 compatible) version of GCC is required. To compile the

@@ -22,7 +22,7 @@ CCFLAGS = $(CXXFLAGS)
 
 LD = g++
 #LDFLAGS = -pthread
-#LDLIBS = -ltcmalloc
+LDLIBS = -static-libstdc++
 
 DEPFLAGS = -MT $@ -MMD -MP -MF $(*:$(OBJDIR)/%=$(DEPDIR)/%).Td
 

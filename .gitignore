@@ -37,6 +37,7 @@ network_stats_transport
 largest_out_component
 largest_out_component_mobile
 largest_out_component_transport
+hll_network_real_vs_estimate
 random_network
 sample_bfs_mobile
 sample_bfs_transport
@@ -45,3 +46,4 @@ out/
 callgrind.out.*
 
 *.events
+*.csv

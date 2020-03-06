@@ -268,6 +268,15 @@ $(OBJDIR)/test_p_larger.o: test_p_larger.cpp
 
 
 
+hll_network_real_vs_estimate: $(OBJDIR)/hll_network_real_vs_estimate.o\
+	HyperLogLog/MurmurHash3.o
+	$(LINK.o)
+
+$(OBJDIR)/hll_network_real_vs_estimate.o: hll_network_real_vs_estimate.cpp
+	$(COMPILE.cc) $(OUTPUT_OPTION) $<
+	$(POSTCOMPILE)
+
+
 
 test_deterministic_out_component_int: $(OBJDIR)/test_deterministic_out_component_int.o HyperLogLog/MurmurHash3.o
 	$(LINK.o)
